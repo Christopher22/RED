@@ -1,5 +1,7 @@
-# R.E.D.
+# R.E.D. 
 R.E.D. is a small and lightweight downloader for files using HTTP. Originally written for an Raspberry Pi it's controlled by a remote control in the local network.
+
+[![Build Status](https://travis-ci.org/Christopher22/RED.svg?branch=master)](https://travis-ci.org/Christopher22/RED)
 
 ##Features:
 * Written in pure Rust - no additional library (i.e. curl) needed
