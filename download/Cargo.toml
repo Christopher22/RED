@@ -2,6 +2,7 @@
 name = "download"
 version = "0.1.0"
 authors = ["Christopher Gundler <c.gundler@mail.de>"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 time = "*"
