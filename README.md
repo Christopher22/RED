@@ -1,11 +1,8 @@
 # R.E.D.
 R.E.D. is a small and lightweight downloader for files using HTTP. Originally written for an Raspberry Pi it's controlled by a remote control in the local network.
 
-##Author
-Christopher Gundler (<c.gundler@mail.de>)
-
 ##Features:
-* Written in pure Rust - no additional library needed
+* Written in pure Rust - no additional library (i.e. curl) needed
 * Fast & lightweight
 * Build for huge downloads in the background
 
@@ -15,7 +12,10 @@ Christopher Gundler (<c.gundler@mail.de>)
 3. Navigate into the repository and run "cargo build --release"
 
 ##Usage:
-Choose a folder where to store all the files and start R.E.D. with it as an command line argument. Open your browser and navigate to "http://[IP of device]:8080" (you can specify the port using another argument).
+Choose a folder where to store all the files and start R.E.D. with it as an command line argument. For an overview over its options start RED with the argument "--help". Open your browser and navigate to "http://[IP of device]:8080" (you can specify the port using "--port <port number>"). Add downloads by clicking "Add" and remove/abort them by clicking on there name.
+
+##Author
+Christopher Gundler (<c.gundler@mail.de>)
 
 ##License
 Licensed under either of
