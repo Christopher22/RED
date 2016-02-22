@@ -1,0 +1,17 @@
+[package]
+name = "red"
+version = "0.1.0"
+authors = ["Christopher Gundler <c.gundler@mail.de>"]
+build = "build.rs"
+license = "MIT OR Apache-2.0"
+
+[dependencies.download]
+path = "download"
+
+[dependencies.hyper]
+version = "*"
+default-features = false
+
+[dependencies]
+serde_json = "*"
+regex = "*"

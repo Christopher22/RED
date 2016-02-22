@@ -1,0 +1,19 @@
+[package]
+name = "download"
+version = "0.1.0"
+authors = ["Christopher Gundler <c.gundler@mail.de>"]
+
+[dependencies]
+time = "*"
+url = "*"
+vec_map = "*"
+serde = "*"
+
+[dependencies.hyper]
+optional = true
+version = "*"
+default-features = false
+
+[features]
+default = ["http"]
+http = ["hyper"]
